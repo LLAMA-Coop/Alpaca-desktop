@@ -12,7 +12,6 @@ export default async function RootLayout({ children }) {
         <>
             <Header user={user} />
             {children}
-            <Footer />
         </>
     );
 }
