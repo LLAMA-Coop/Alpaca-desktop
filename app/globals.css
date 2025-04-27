@@ -502,3 +502,8 @@ input[type="date"] {
     color: #ffdcd7;
     background-color: #67060c;
 }
+
+.titlebar {
+    height: 24px;
+    app-region: drag;
+}

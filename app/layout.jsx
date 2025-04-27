@@ -79,6 +79,8 @@ export default async function RootLayout({ children }) {
                 {/* So Firefox displays page after css has loaded */}
                 <script>0</script>
 
+                <div className="titlebar" />
+
                 {children}
 
                 <Timer />
